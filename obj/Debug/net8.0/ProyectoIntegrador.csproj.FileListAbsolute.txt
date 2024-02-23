@@ -1,0 +1,14 @@
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\bin\Debug\net8.0\ProyectoIntegrador.exe
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\bin\Debug\net8.0\ProyectoIntegrador.deps.json
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\bin\Debug\net8.0\ProyectoIntegrador.runtimeconfig.json
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\bin\Debug\net8.0\ProyectoIntegrador.dll
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\bin\Debug\net8.0\ProyectoIntegrador.pdb
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.AssemblyInfoInputs.cache
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.AssemblyInfo.cs
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.csproj.CoreCompileInputs.cache
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.dll
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\refint\ProyectoIntegrador.dll
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.pdb
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.genruntimeconfig.cache
+c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ref\ProyectoIntegrador.dll
