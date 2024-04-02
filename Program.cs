@@ -16,9 +16,13 @@ class Program
         string lastName;
         int age;
         string Email;
+        List<string> selectedCourses = new List<string>();
+
+
         string errorMessage = "Datos incorrectos. Ejecutar nuevamente la aplicación";
         char reply;
         int careerCode;
+        string[] availableCourses = {"1. Programacion .Net", "2. Programacion Java", "3. Programacion PHP", "4. Programacion C++", "5. Diseño Web Responsive" };
 
         Console.WriteLine("Ingrese Nombre:");
         name = Console.ReadLine();
@@ -43,36 +47,40 @@ class Program
 
         if (reply == 's' || reply == 'S')
         {
-            Console.WriteLine("Ingrese el codigo de la carrera: ");
-            Console.WriteLine("1. Programacion .NET");
-            Console.WriteLine("2. Programacion Java");
-            Console.WriteLine("3. Programacion PHP");
-            careerCode = int.Parse(Console.ReadLine());
-            if (careerCode == 1 || careerCode == 2|| careerCode == 3)
+            do
             {
-                Console.WriteLine("--- Constancia de inscripción ---");
-                Console.WriteLine("Alumno: "+ name + " " + lastName );
-                Console.WriteLine("Correo Electronico: "+ Email);
-                switch (careerCode)
+                Console.Clear();
+                Console.WriteLine("Ingrese el curso al que desea inscribirse");
+                foreach (var course in availableCourses)
                 {
-                    case 1:
-                        Console.WriteLine("Carrera: Programacion .NET");
-                        break;
-                    case 2:
-                        Console.WriteLine("Carrera: Programacion Java");
-                        break;
-                    case 3:
-                        Console.WriteLine("Carrera: Programacion PHP");
-                        break;
+                    Console.WriteLine(course);
                 }
-            }
-            else
+                careerCode = int.Parse(Console.ReadLine());
+                if (careerCode >= 1 && careerCode <= 5)
+                {
+                    selectedCourses.Add(availableCourses[careerCode - 1]);
+                    Console.WriteLine("Curso seleccionado: " + availableCourses[careerCode - 1]);
+                    Console.WriteLine("¿Desea seleccionar otro curso? - 'S' para sí, 'N' para no");
+                    reply = char.Parse(Console.ReadLine());
+                }
+                else
+                {
+                    Console.WriteLine(errorMessage);
+                    reply = 'N';
+                }
+            } while (reply == 'S' || reply == 's');
+
+
+            Console.WriteLine("Alumno: " + name + " " + lastName);
+            Console.WriteLine("Email: " + Email);
+            Console.WriteLine("--- Cursos seleccionados ---");
+            foreach (var course in selectedCourses)
             {
-                Console.WriteLine(errorMessage);
+                Console.WriteLine(course);
             }
-            
         }
-        else{
+        else
+        {
             Console.WriteLine(errorMessage);
         }
         

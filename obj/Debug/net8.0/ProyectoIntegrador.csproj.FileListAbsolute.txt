@@ -12,3 +12,18 @@ c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0
 c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.pdb
 c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ProyectoIntegrador.genruntimeconfig.cache
 c:\Users\agust\OneDrive\Escritorio\Cursos\C#\ProyectoIntegrador\obj\Debug\net8.0\ref\ProyectoIntegrador.dll
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\bin\Debug\net8.0\ProyectoIntegrador.exe
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\bin\Debug\net8.0\ProyectoIntegrador.deps.json
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\bin\Debug\net8.0\ProyectoIntegrador.runtimeconfig.json
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\bin\Debug\net8.0\ProyectoIntegrador.dll
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\bin\Debug\net8.0\ProyectoIntegrador.pdb
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.AssemblyInfoInputs.cache
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.AssemblyInfo.cs
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.csproj.CoreCompileInputs.cache
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.sourcelink.json
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.dll
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\refint\ProyectoIntegrador.dll
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.pdb
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ProyectoIntegrador.genruntimeconfig.cache
+C:\Users\agust\OneDrive\Escritorio\Cursos\C#\Proyecto Integrador\obj\Debug\net8.0\ref\ProyectoIntegrador.dll

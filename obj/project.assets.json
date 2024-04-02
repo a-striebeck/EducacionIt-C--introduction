@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\ProyectoIntegrador\\ProyectoIntegrador.csproj",
+      "projectUniqueName": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\ProyectoIntegrador.csproj",
       "projectName": "ProyectoIntegrador",
-      "projectPath": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\ProyectoIntegrador\\ProyectoIntegrador.csproj",
+      "projectPath": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\ProyectoIntegrador.csproj",
       "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\ProyectoIntegrador\\obj\\",
+      "outputPath": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agust\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
