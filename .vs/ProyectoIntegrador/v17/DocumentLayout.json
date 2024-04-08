@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,10 +32,22 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-02T19:46:05.485Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-04-08T23:30:19.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T20:17:36.689Z",
               "EditorCaption": ""
             },
             {
