@@ -12,7 +12,7 @@ namespace ProyectoIntegrador
         public string LastName { get; private set; }
         public int Age { get; private set; }
         public string Email { get; private set; }
-        public List<string> SelectedCourses { get; private set; } = new List<string>();
+        public List<Course> SelectedCourses { get; private set; } = new List<Course>();
 
 
         public Student()
@@ -38,9 +38,9 @@ namespace ProyectoIntegrador
             Email = tEmail;
         }
 
-        public void setCourses(string courses)
+        public void setCourses(Course course)
         {
-            SelectedCourses.Add(courses);
+            SelectedCourses.Add(course);
         }
 
 
@@ -79,44 +79,46 @@ namespace ProyectoIntegrador
             }   while (reply != 's' && reply != 'S');
         }
 
-        public void signUpToCourse(string[] availableCourses)
+        public void signUpToCourse(List<Course> availableCourses)
         {
-            int careerCode = 0;
             char reply = 'S';
 
             do { 
                 Console.Clear();
                 Console.WriteLine("Ingrese el curso al que desea inscribirse");
 
-                foreach (var course in availableCourses)
+                for (int i = 0; i < availableCourses.Count; i++)
                 {
-                    Console.WriteLine(course);
+                    Console.WriteLine($"{i + 1}. {availableCourses[i].Name} - Duración: {availableCourses[i].Duration}");
                 }
 
-                careerCode = int.Parse(Console.ReadLine());
-
-                if (careerCode >= 1 && careerCode <= 5)
-
+                if (int.TryParse(Console.ReadLine(), out int courseNumber) && courseNumber >= 1 && courseNumber <= availableCourses.Count)
                 {
-                    setCourses(availableCourses[careerCode - 1]);
-                    Console.WriteLine("Curso seleccionado: " + availableCourses[careerCode - 1]);
-                    Console.WriteLine("¿Desea seleccionar otro curso? - 'S' para sí, 'N' para no");
-                    reply = char.Parse(Console.ReadLine());
+                    setCourses(availableCourses[courseNumber - 1]);
+                    Console.WriteLine("Curso seleccionado: " + availableCourses[courseNumber - 1].Name);
+                }
+                else
+                {
+                    Console.WriteLine("El número ingresado no corresponde a ningún curso disponible.");
                 }
 
-            }   while (reply == 's' && reply == 'S');
+                Console.WriteLine("¿Desea seleccionar otro curso? - 'S' para sí, 'N' para no");
+                reply = char.ToUpper(Console.ReadKey().KeyChar);
+                Console.Clear();
+            } while (reply == 'S');
 
         }
         public void showInscriptions()
         {
-            Console.WriteLine("<<<Constancia de inscripción>>>");
-            Console.WriteLine("Alumno: " + Name + " " + LastName);
-            Console.WriteLine("Email: " + Email);
+            Console.WriteLine("<<< Constancia de inscripción >>>");
+            Console.WriteLine($"Alumno: {Name} {LastName}");
+            Console.WriteLine($"Email: {Email}");
             Console.WriteLine("--- Cursos seleccionados ---");
 
             foreach (var course in SelectedCourses)
             {
-                Console.WriteLine(course);
+                Console.WriteLine(course.Name);
+                Console.WriteLine(course.Duration);
             }
         }
     }

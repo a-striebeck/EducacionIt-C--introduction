@@ -29,15 +29,17 @@ Este proyecto es parte del trabajo integrador propuesto por Educación IT para d
 * Despliegue de los datos del alumno (nombre, apellido, correo electrónico).
 * Despliegue de los cursos seleccionados por el alumno.
 
-### Cambios Implementados en esta versión.
+### Cambios Implementados en esta versión (Inclusión de la clase Course):
 
 * Se creó una clase Student para encapsular la lógica relacionada con los estudiantes.
 * Se reorganizó el código para utilizar métodos dentro de la clase Student para la solicitud de datos del alumno, inscripción a cursos y presentación de datos.
-* Se modificó el flujo principal del programa para instanciar un objeto Student y utilizar sus métodos para manejar las operaciones de inscripción.
-* Se refactorizó el código para mejorar la legibilidad y la estructura del programa.
-* Con estos cambios, el programa ahora sigue un diseño más modular y orientado a objetos, lo que facilita su mantenimiento y extensión en el futuro.
+* Se añadió la clase Course para representar los cursos con propiedades para nombre y duración.
+* Se modificó el método signUpToCourse en la clase Student para aceptar una lista de cursos y mostrarlos junto con sus respectivas duraciones.
+* Se actualizó el flujo principal del programa en la clase Program para instanciar objetos Course y pasarlos al método signUpToCourse.
+* Se mejoró la presentación de los cursos seleccionados en el método showInscriptions de la clase Student para mostrar los nombres de los cursos junto con sus duraciones.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Educacion IT - Introduction to C#
 
 This project is part of the integrative work proposed by Educación IT to demonstrate and apply the knowledge gained in the Introduction to C# course. The main objective is to develop an enrollment system for an educational institution using a console application that allows students to enter their information, confirm its correctness, and choose courses.
@@ -67,10 +69,11 @@ This project is part of the integrative work proposed by Educación IT to demons
 * Display of student data (name, last name, email).
 * Display of courses selected by the student.
 
-### Changes Implemented on this version.
+### Changes Implemented on this version (Addition of the Course class):
 
 * Created a Student class to encapsulate the logic related to students.
 * Reorganized the code to use methods within the Student class for student data request, course enrollment, and data presentation.
-* Modified the main program flow to instantiate a Student object and use its methods to handle enrollment operations.
-* Refactored the code to improve readability and program structure.
-* With these changes, the program now follows a more modular and object-oriented design, making it easier to maintain and extend in the future.
+* Added the Course class to represent courses with properties for name and duration.
+* Updated the signUpToCourse method in the Student class to accept a list of courses and display them with their respective durations.
+* Modified the main program flow in the Program class to instantiate Course objects and pass them to the signUpToCourse method.
+* Enhanced the presentation of selected courses in the showInscriptions method of the Student class to display course names along with their durations.
