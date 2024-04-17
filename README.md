@@ -29,15 +29,13 @@ Este proyecto es parte del trabajo integrador propuesto por Educación IT para d
 * Despliegue de los datos del alumno (nombre, apellido, correo electrónico).
 * Despliegue de los cursos seleccionados por el alumno.
 
-### Cambios Implementados en esta versión (Inclusión de la clase Course):
+### Cambios Implementados en esta versión:
 
-* Se creó una clase Student para encapsular la lógica relacionada con los estudiantes.
-* Se reorganizó el código para utilizar métodos dentro de la clase Student para la solicitud de datos del alumno, inscripción a cursos y presentación de datos.
-* Se añadió la clase Course para representar los cursos con propiedades para nombre y duración.
-* Se modificó el método signUpToCourse en la clase Student para aceptar una lista de cursos y mostrarlos junto con sus respectivas duraciones.
-* Se actualizó el flujo principal del programa en la clase Program para instanciar objetos Course y pasarlos al método signUpToCourse.
-* Se mejoró la presentación de los cursos seleccionados en el método showInscriptions de la clase Student para mostrar los nombres de los cursos junto con sus duraciones.
-
+* Se modificaron los nombres de las propiedades de la clase `Student` a `FirstName`, `LastName`, `Age` y `Email`.
+* Se agregaron métodos `Get` y `Set` para acceder y modificar los datos del estudiante de manera controlada.
+* Se encapsuló la lógica para la solicitud y presentación de datos del estudiante dentro de métodos privados `SetStudentData` y `ShowStudentData`.
+* Se actualizó el método `SignUpToCourse` para manejar excepciones de formato al ingresar el número del curso.
+* Se añadió el método `ShowCourses` para mostrar los detalles de los cursos en los que el estudiante está inscrito.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Educacion IT - Introduction to C#
@@ -69,11 +67,11 @@ This project is part of the integrative work proposed by Educación IT to demons
 * Display of student data (name, last name, email).
 * Display of courses selected by the student.
 
-### Changes Implemented on this version (Addition of the Course class):
+### Changes Implemented on this version:
 
-* Created a Student class to encapsulate the logic related to students.
-* Reorganized the code to use methods within the Student class for student data request, course enrollment, and data presentation.
-* Added the Course class to represent courses with properties for name and duration.
-* Updated the signUpToCourse method in the Student class to accept a list of courses and display them with their respective durations.
-* Modified the main program flow in the Program class to instantiate Course objects and pass them to the signUpToCourse method.
-* Enhanced the presentation of selected courses in the showInscriptions method of the Student class to display course names along with their durations.
+
+- Property names of the `Student` class were changed to `FirstName`, `LastName`, `Age`, and `Email`.
+- `Get` and `Set` methods were added to access and modify student data in a controlled manner.
+- Logic for student data request and presentation was encapsulated within private methods `SetStudentData` and `ShowStudentData`.
+- The `SignUpToCourse` method was updated to handle format exceptions when entering the course number.
+- The `ShowCourses` method was added to display details of the courses the student is enrolled in.

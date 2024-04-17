@@ -8,117 +8,155 @@ namespace ProyectoIntegrador
 {
     internal class Student
     {
-        public string Name { get; private set; }
-        public string LastName { get; private set; }
-        public int Age { get; private set; }
-        public string Email { get; private set; }
-        public List<Course> SelectedCourses { get; private set; } = new List<Course>();
+        private string FirstName { get; set; }
+        private string LastName { get; set; }
+        private int Age { get; set; }
+        private string Email { get; set; }
+        private List<Course> SelectedCourses { get; set; } = new List<Course>();
 
 
         public Student()
         {
 
         }
-        public void setName(string tName)
+        public void SetFirstName(string tFirstName)
         {
-            Name = tName;
+            FirstName = tFirstName;
         }
-        public void setLastName(string tLastName)
+        public void SetLastName(string tLastName)
         {
             LastName = tLastName;
         }
 
-        public void setAge(int tAge)
+        public void SetAge(int tAge)
         {
             Age = tAge;
         }
 
-        public void setEmail(string tEmail)
+        public void SetEmail(string tEmail)
         {
             Email = tEmail;
         }
 
-        public void setCourses(Course course)
+        public void SetCourses(Course course)
         {
             SelectedCourses.Add(course);
         }
 
-
-        public void signUp()
+        public string GetFirstName()
         {
+            return FirstName;
+        }
 
-            char reply = 'S';
+        public string GetLastName()
+        {
+            return LastName;
+        }
 
-            do
+        public int GetAge()
+        {
+            return Age;
+        }
+
+        public string GetEmail()
+        {
+            return Email;
+        }
+
+        private void SetStudentData()
+        {
+            try
             {
+
                 Console.WriteLine("Ingrese Nombre:");
-                setName(Console.ReadLine());
+                SetFirstName(Console.ReadLine());
                 Console.Clear();
 
                 Console.WriteLine("Ingrese su Apellido:");
-                setLastName(Console.ReadLine());
+                SetLastName(Console.ReadLine());
                 Console.Clear();
 
                 Console.WriteLine("Ingrese su edad:");
-                setAge(int.Parse(Console.ReadLine()));
+                SetAge(int.Parse(Console.ReadLine()));
                 Console.Clear();
 
                 Console.WriteLine("Ingrese su correo electronico:");
-                setEmail(Console.ReadLine());
+                SetEmail(Console.ReadLine());
                 Console.Clear();
+            }
 
-                Console.WriteLine("--- Datos del alumno ---");
-                Console.WriteLine("Nombre: " + Name);
-                Console.WriteLine("Apellido: " + LastName);
-                Console.WriteLine("Edad: " + Age);
-                Console.WriteLine("Email: " + Email);
-                Console.WriteLine("¿Los datos son correctos? - 'S' para confirmar, ingrese cualquier otro caracter para volver a cargar los datos");
-
-                reply = char.Parse(Console.ReadLine());
-
-            }   while (reply != 's' && reply != 'S');
+            catch (FormatException) 
+            {
+                Console.WriteLine(Constants.FormatErrorMessage);
+            }
         }
 
-        public void signUpToCourse(List<Course> availableCourses)
+        private void ShowStudentData() 
         {
-            char reply = 'S';
+            Console.WriteLine($"Nombre: { GetFirstName()} { GetLastName()}");
+            Console.WriteLine("Edad: " + GetAge());
+            Console.WriteLine("Email: " + GetEmail());
+        }
 
-            do { 
-                Console.Clear();
-                Console.WriteLine("Ingrese el curso al que desea inscribirse");
+        public void SignUp()
+        {
 
-                for (int i = 0; i < availableCourses.Count; i++)
+                char reply = 'S';
+
+                do
                 {
-                    Console.WriteLine($"{i + 1}. {availableCourses[i].Name} - Duración: {availableCourses[i].Duration}");
-                }
+                    SetStudentData();
+                    Console.WriteLine("--- Datos del alumno ---");
+                    ShowStudentData();
+                    Console.WriteLine("¿Los datos son correctos? - 'S' para confirmar, ingrese cualquier otro caracter para volver a cargar los datos");
 
+                    reply = char.Parse(Console.ReadLine());
+
+                } while (reply != 's' && reply != 'S');
+
+        }
+        public void SignUpToCourse(List<Course> availableCourses)
+        {
+            Console.Clear();
+            Console.WriteLine("Ingrese el curso al que desea inscribirse");
+
+            for (int i = 0; i < availableCourses.Count; i++)
+            {
+                Console.Write($"{i + 1}. ");
+                availableCourses[i].ShowCourseInformation();
+            }
+            try
+            {
                 if (int.TryParse(Console.ReadLine(), out int courseNumber) && courseNumber >= 1 && courseNumber <= availableCourses.Count)
                 {
-                    setCourses(availableCourses[courseNumber - 1]);
+                    SetCourses(availableCourses[courseNumber - 1]);
                     Console.WriteLine("Curso seleccionado: " + availableCourses[courseNumber - 1].Name);
                 }
                 else
                 {
                     Console.WriteLine("El número ingresado no corresponde a ningún curso disponible.");
                 }
-
-                Console.WriteLine("¿Desea seleccionar otro curso? - 'S' para sí, 'N' para no");
-                reply = char.ToUpper(Console.ReadKey().KeyChar);
-                Console.Clear();
-            } while (reply == 'S');
-
+            } 
+            
+            catch (FormatException)
+            {
+                Console.WriteLine(Constants.FormatErrorMessage);
+            }
         }
-        public void showInscriptions()
+        public void ShowInscriptions()
         {
             Console.WriteLine("<<< Constancia de inscripción >>>");
-            Console.WriteLine($"Alumno: {Name} {LastName}");
-            Console.WriteLine($"Email: {Email}");
-            Console.WriteLine("--- Cursos seleccionados ---");
+            ShowStudentData();
+            Console.WriteLine("Cursos en los que esta inscripto: ");
+            ShowCourses();
 
+        }
+
+        public void ShowCourses()
+        {
             foreach (var course in SelectedCourses)
             {
-                Console.WriteLine(course.Name);
-                Console.WriteLine(course.Duration);
+                course.ShowCourseInformation();
             }
         }
     }

@@ -15,13 +15,16 @@ namespace ProyectoIntegrador
 
         }
 
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
-        public string Duration { get; set; }
-
-
+        public string Duration { get; private set; }
 
 
+        public void ShowCourseInformation()
+        {
+            Console.WriteLine($"{Name} \t\t-\t Duracion: {Duration}");
+            
+        }
 
     }
 }

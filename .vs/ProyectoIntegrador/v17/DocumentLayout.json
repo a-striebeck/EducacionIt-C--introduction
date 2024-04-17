@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|c:\\users\\agust\\onedrive\\escritorio\\cursos\\c#\\proyecto integrador\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{579A9BB0-57D7-4E20-97AD-8D4CD6786737}|ProyectoIntegrador.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T23:46:10.508Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
               "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Student.cs",
               "RelativeToolTip": "Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAzwKMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T23:07:32.879Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Course.cs",
+              "RelativeDocumentMoniker": "Course.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Course.cs",
+              "RelativeToolTip": "Course.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T23:46:13.19Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,36 +80,22 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAABpAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-10T23:47:42.073Z",
+              "WhenOpened": "2024-04-17T22:30:46.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Course.cs",
-              "RelativeDocumentMoniker": "Course.cs",
-              "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Course.cs",
-              "RelativeToolTip": "Course.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Constants.cs",
+              "RelativeDocumentMoniker": "Constants.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Constants.cs",
+              "RelativeToolTip": "Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T23:46:13.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\agust\\OneDrive\\Escritorio\\Cursos\\C#\\Proyecto Integrador\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T23:46:10.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T18:37:10.831Z"
             }
           ]
         }
